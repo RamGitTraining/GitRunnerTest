@@ -33,6 +33,5 @@ jobs:
       - name: Run a multi-line script
    
         run: |                  
-                 
-                 dotnet --list-sdks
-                    
+             curl -o dotnet-install.sh https://dotnet.microsoft.com/download/dotnet/scrips/v1/dotnet-install.sh
+             chmod o+rx dotnet-install.sh
