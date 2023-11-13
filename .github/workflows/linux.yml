@@ -37,11 +37,5 @@ jobs:
              chmod o+rx dotnet-install.sh
              DIR="/ucloud/runtimes/dotnetsdk/6.0/sdk"
              # install the 6.0.310
-              ./dotnet-install.sh --version 6.0.310 --install-dir $DIR
-             if[ -d"$DIR" ]; then
-                    echo "$DIR does exist."
-             fi
-             cd /ucloud/runtimes/dotnetsdk/6.0/sdk/dotnet
-             ls -lrt
-              #Add 
-             export PATH=$PATH:$DIR/dotnet
+              ./dotnet-install.sh --version 6.1.426
+             
