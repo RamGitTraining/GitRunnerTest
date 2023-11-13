@@ -33,7 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |                    
                     #!/bin/bash
-                      if dotnet --list-sdks | grep -q '6.0.310'; then
+                      if dotnet --list-sdks | grep -q '6.0.310' then
                           echo ".NET SDK 6.0.310 is already installed."
                       else
                          echo ".NET SDK 6.0.310 is not installed. Installing.."
