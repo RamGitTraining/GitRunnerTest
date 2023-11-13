@@ -33,8 +33,7 @@ jobs:
       - name: Run a multi-line script
    
         run: |                  
-             curl -o dotnet-install.sh https://dotnet.microsoft.com/download/dotnet/scrips/v1/dotnet-install.sh
-                
+             curl -o dotnet-install.sh https://dotnet.microsoft.com/download/dotnet/scrips/v1/dotnet-install.sh              
              chmod o+rx dotnet-install.sh
              DIR="/ucloud/runtimes/dotnetsdk/6.0/sdk"
              # install the 6.0.310
